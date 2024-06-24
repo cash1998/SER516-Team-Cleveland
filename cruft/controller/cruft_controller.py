@@ -23,6 +23,7 @@ def get_zero_business_value(
         cruftRequest.attributeKey,
         token
     )
+    print("Yeleee")
     issues = get_issues(
         cruftRequest.projectId,
         date.fromisoformat(cruftRequest.startDate),
